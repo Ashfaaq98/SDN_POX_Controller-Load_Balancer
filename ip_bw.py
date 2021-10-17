@@ -184,7 +184,7 @@ class iplb (object):
 
     # Read the bandwidth values from a file
     
-    with open("/home/mininet/Project/sample.txt") as file:
+    with open("/home/pi/sample.txt") as file:
         for line in file:
             line = line.strip()
             bw.append(line)
